@@ -1,38 +1,102 @@
-.App {
+*{
+  background-color: aqua;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+
+#create-main,#resume-list{
+  border: 2px solid red;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+#create-main > *,#resume-list > *{
+  
+  background-color: white;
+  
+}
+
+#create-title{
+  background-color: white;
   text-align: center;
+  text-shadow: 2px 2px aqua;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#view-btn{
+  display: inline;
+  margin: 12px;
+  position: relative;
+  left: 559px;
+  bottom: 15px;
+  border: 2px solid aqua;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#view-btn:hover{
+  
+  box-shadow: 2px 2px aqua;
+  background-color: white;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  background-color: white;
+  border: 2px solid aqua;
+  border-radius: 6px;
+}
+
+#ed-title,#exp-title{
+  font-size: 1.6rem;
+  background-color: white;
+}
+
+#option{
+  font-size: 1.6rem;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid aqua;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  
+}
+#option-list{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  justify-content: space-around;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#list-main{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#one-resume{
+  background-color: white;
+  border: 2px solid aqua;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+
+td,th{
+  text-align: center;
+  padding: 0 2px 5px;
+  background-color: white;
+}
+
+h2,p,li,ul{
+  background-color: white;
+
 }
